@@ -1,0 +1,26 @@
+
+:root {
+/* Colors */
+--blue-color: hsl(228, 45%, 44%);
+--blue-950: hsl(233, 26%, 24%);
+--green-500: hsl(136, 64%, 51%);
+--cyan-400: hsl(192, 69%, 51%);
+--gray-600: hsl(233, 8%, 62%);
+--gray-100: hsl(220, 16%, 96%);
+--gray-50: hsl(0, 0%, 98%);
+--white: hsl(0, 100%, 100%);
+/* Sizes */
+--mobile: 375px;
+--desktop: 1440px;
+}
+
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+
+}
