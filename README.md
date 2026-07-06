@@ -1,6 +1,6 @@
 # Frontend Mentor - Digitalbank landing page solution
 
-- Live Site URL:[https://pioneercode1.github.io/digitalbank-landing-page/](digitalbank-landing-page)
+- Live Site URL: [https://pioneercode1.github.io/digitalbank-landing-page/](digitalbank-landing-page)
 
 ![](./preview.jpg)
 
