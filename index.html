@@ -18,9 +18,22 @@
 
   <header class="header">
     <img class="logo-light" src="./images/logo-dark.svg" alt="logo dark" width="180" height="32">
+    
+    <nav class="menu-desktop" aria-label="Main Navigation">
+      <div class="menu-desktop-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+        <a href="#careers">Careers</a>
+      </div>
+    </nav>
+
     <button class="btn-request" type="button">Request Invite</button>
     <button class="btn-menu" type="button" aria-label="Open menu"><img class="icon-menu"
         src="./images/icon-hamburger.svg" alt="icon menu" width="24" height="14"></button>
+
+
   </header>
 
   <main class="main-app">
@@ -40,8 +53,8 @@
       <div class="intro-container">
         <div class="img-content show-menu">
           <picture class="pic-intro">
-            <source media="(min-width: 1024px)" srcset="./images/bg-intro-desktop.svg">
-            <source media="(max-width: 1024px)" srcset="./images/bg-intro-mobile.svg">
+            <source media="(min-width: 1440px)" srcset="./images/bg-intro-desktop.svg">
+            <source media="(max-width: 1439px)" srcset="./images/bg-intro-mobile.svg">
             <img src="./images/bg-intro-mobile.svg" alt="bg intro mobile" width="375" height="auto">
           </picture>
         </div>
@@ -128,7 +141,8 @@
             <span class="articles-intro">Treat yourself without worrying about
               money</span>
             <br>
-            <span class="articles-description">Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you</span>
+            <span class="articles-description">Our simple budgeting feature allows you to separate out your spending and
+              set realistic limits each month. That means you</span>
           </div>
         </article>
 
