@@ -532,14 +532,14 @@ a:focus {
 
     .section-bg-intro .intro-container .generation-content {
         padding-inline: 6.5rem;
-        padding-block: 12rem;
+        padding-block: 11rem;
         width: 40%;
         max-width: 800px;
         height: 720px;
     }
 
     .generation-content h2 {
-        font-size: 2.5em !important;
+        font-size: 2.2em !important;
         font-weight: 500;
         text-align: start;
         line-height: 1.4;
@@ -559,13 +559,14 @@ a:focus {
     .section-digitalbank {
         margin-block-start: 0px;
         padding-inline: 7rem;
-        padding-block-start: 7rem;
+        padding-block-start: 6.5rem;
         padding-block-end: 5rem;
         text-align: start;
         background-color: var(--gray-100);
     }
 
     .section-digitalbank .digital-intro h3 {
+        Font-size: 2em;
         text-align: start;
         margin-block-end: 1em;
         padding-inline-start: 0.5em;
@@ -610,8 +611,7 @@ a:focus {
 
     .section-articles {
         padding-inline: 7rem;
-        padding-block-start: 7rem;
-        padding-block-end: 5rem;
+        padding-block: 5rem;
     }
 
     .section-articles .articles-heading .latest-articles-heading {
