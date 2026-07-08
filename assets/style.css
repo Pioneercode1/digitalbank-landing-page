@@ -357,7 +357,7 @@ a:focus {
     margin-block-start: 1.5rem;
 }
 
-/* taplat */
+/* pc  */
 
 @media (min-width: 1024px) and (max-width: 1439px) {
     body {
@@ -408,7 +408,7 @@ a:focus {
         margin-inline: auto;
     }
 
-    .section-articles .articles-container{
+    .section-articles .articles-container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -417,12 +417,12 @@ a:focus {
         margin-block-start: 5rem;
     }
 
-    .section-articles .articles-container .articles-element{
+    .section-articles .articles-container .articles-element {
         width: 40%;
         max-width: 400px;
     }
 
-    .section-articles .articles-container .articles-element img{
+    .section-articles .articles-container .articles-element img {
         width: 100%;
         height: 196px;
         min-height: 140px;
@@ -457,6 +457,16 @@ a:focus {
         text-align: center;
     }
 
+    /* ::after {
+        content: '';
+        background-image: url(../images/image-mockups.png);
+        background-position: 50%;
+        background-origin: 50%;
+        background-size: contain;
+        position: absolute;
+        inset: 80px -10% 0% 50%;
+        z-index: 11;
+    } */
 
     .header .btn-request {
         margin-inline-start: auto;
@@ -495,6 +505,18 @@ a:focus {
         background: var(--gray-50);
     }
 
+    .section-bg-intro::after {
+        content: '';
+        background-image: url(../images/image-mockups.png);
+        background-position: 50%;
+        background-origin: 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        inset: 0% -10% -13% 34%;
+        z-index: 11;
+        width: 100%;
+    }
 
     .intro-container {
         display: flex;
@@ -511,17 +533,8 @@ a:focus {
         overflow: visible;
     }
 
-    .section-bg-intro .intro-container .img-content::after {
-        content: '';
-        background-image: url(../images/image-mockups.png);
-        background-position: 50%;
-        background-origin: 50%;
-        background-size: cover;
-        position: absolute;
-        top: 0% !important;
-        right: -10% !important;
-        left: 25% !important;
-        height: 100%;
+    .section-bg-intro .intro-container .img-content.show-menu::after {
+        background-image: url();
     }
 
     .section-bg-intro .intro-container .img-content img {
