@@ -512,6 +512,7 @@ a:focus {
         flex-direction: row-reverse;
         padding-inline-start: 3rem;
         overflow: hidden;
+        height: 668px;
     }
 
     .section-bg-intro .intro-container .img-content {
@@ -536,7 +537,7 @@ a:focus {
         padding-block-end: 5rem;
         width: 40%;
         max-width: 800px;
-        /* height: 700px; */
+        height: 700px;
     }
 
     .generation-content h2 {
