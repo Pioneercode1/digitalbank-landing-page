@@ -532,11 +532,11 @@ a:focus {
 
     .section-bg-intro .intro-container .generation-content {
         padding-inline: 6.5rem;
-        padding-block-start: 11rem;
-        padding-block-end: 7rem;
+        padding-block-start: 10rem;
+        padding-block-end: 5rem;
         width: 40%;
         max-width: 800px;
-        height: 720px;
+        /* height: 700px; */
     }
 
     .generation-content h2 {
