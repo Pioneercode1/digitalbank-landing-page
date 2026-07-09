@@ -532,7 +532,8 @@ a:focus {
 
     .section-bg-intro .intro-container .generation-content {
         padding-inline: 6.5rem;
-        padding-block: 11rem;
+        padding-block-start: 11rem;
+        padding-block-end: 7rem;
         width: 40%;
         max-width: 800px;
         height: 720px;
@@ -559,7 +560,7 @@ a:focus {
     .section-digitalbank {
         margin-block-start: 0px;
         padding-inline: 7rem;
-        padding-block-start: 6.5rem;
+        padding-block-start: 5.5rem;
         padding-block-end: 5rem;
         text-align: start;
         background-color: var(--gray-100);
@@ -591,7 +592,7 @@ a:focus {
         align-items: start;
         flex-direction: column;
         width: 25%;
-        padding-block-start: 3rem;
+        padding-block-start: 2.5rem;
     }
 
     .digital-elements .element-digital img {
@@ -611,19 +612,21 @@ a:focus {
 
     .section-articles {
         padding-inline: 7rem;
-        padding-block: 5rem;
+        padding-block-start: 2.7rem;
+        padding-block-end: 5rem;
     }
 
     .section-articles .articles-heading .latest-articles-heading {
         text-align: start;
         padding-inline-start: 0.5em;
-        margin-block-end: 2em;
+        margin-block-end: 1em;
     }
 
     .section-articles .articles-container {
         display: flex;
         justify-content: center;
         align-items: flex-start;
+        margin-block-end: 0rem;
     }
 
     .section-articles .articles-container .articles-element {
@@ -684,7 +687,8 @@ a:focus {
         display: flex;
         justify-content: center;
         flex-direction: row;
-        column-gap: 3rem;
+        column-gap: 5rem;
+        margin-block-end: 1rem;
     }
 
 }
