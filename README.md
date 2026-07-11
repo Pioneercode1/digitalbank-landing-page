@@ -1,8 +1,8 @@
 # Frontend Mentor - Digitalbank landing page solution
 
-- Live Site URL: [https://pioneercode1.github.io/digitalbank-landing-page/](digitalbank-landing-page)
+- Live Site URL: [digitalbank-landing-page](https://pioneercode1.github.io/digitalbank-landing-page/)
 
-![](./preview.jpg)
+![Screenshot](./preview.jpg)
 
 This is a solution to the [Digitalbank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/digital-bank-landing-page-WaUhkoDN). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -10,7 +10,6 @@ This is a solution to the [Digitalbank landing page challenge on Frontend Mentor
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
