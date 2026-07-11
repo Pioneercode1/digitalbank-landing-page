@@ -672,8 +672,8 @@ a:focus {
         line-clamp: 2;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
-        font-size: 1em;
-        width: 87.8%;
+        font-size: 1.1em  !important;
+        width: 88%;
     }
 
     .articles-element .articles-content .articles-description {
@@ -681,7 +681,7 @@ a:focus {
         line-clamp: 4;
         -webkit-line-clamp: 4 !important;
         -webkit-box-orient: vertical !important;
-        width: 87.8%;
+        width: 88%;
         margin-block-start: 0px !important;
     }
 
